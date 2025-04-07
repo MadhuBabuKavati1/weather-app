@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+  transition: background 0.5s ease-in-out;
+}
+
+.clear {
+  background: linear-gradient(to bottom, #87ceeb, #f0f8ff);
+}
+
+.clouds {
+  background: linear-gradient(to bottom, #d3d3d3, #ffffff);
+}
+
+.rain {
+  background: linear-gradient(to bottom, #5f9ea0, #708090);
+  color: white;
+}
+
+.snow {
+  background: linear-gradient(to bottom, #e0f7fa, #ffffff);
+}
+
+.default {
+  background: linear-gradient(to bottom, #d0eaff, #f0f8ff);
+}
+
+.App {
+  padding: 2rem;
+}
+
+.input-group {
+  margin-bottom: 1rem;
+}
+
+input {
+  padding: 8px;
+  width: 200px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 8px 12px;
+  font-size: 16px;
+  margin-left: 10px;
+  cursor: pointer;
+  background-color: #3182ce;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #2c5282;
+}
+
+.weather-card {
+  margin-top: 1.5rem;
+  padding: 1rem;
+  border-radius: 12px;
+  background: #ffffffb8;
+  display: inline-block;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.forecast-container {
+  margin-top: 2rem;
+}
+
+.forecast-grid {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.forecast-card {
+  background: #ffffffc5;
+  padding: 1rem;
+  border-radius: 12px;
+  width: 140px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
